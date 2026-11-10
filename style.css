@@ -131,3 +131,41 @@ footer {
   padding: 24px 0;
   color: var(--off-white);
 }
+
+
+/* Mobile styles for screens 500px and smaller */
+@media screen and (max-width: 500px) {
+nav > a:not(:first-of-type) {
+    margin-left: 12px;
+}
+
+nav > a.logo {
+    margin-right: auto;
+}
+
+main article {
+    padding: 24px 20px;
+}
+
+section.hero > .call-to-action {
+    font-size: 1.25rem;
+    padding: 0 20px;
+}
+
+main > article img {
+    float: none;
+    display: block;
+    max-width: 100%;
+    margin: 0 auto 20px;
+}
+
+main > section,
+main > article {
+    margin-bottom: 32px;
+}
+
+main p {
+    margin-bottom: 24px;
+}
+
+}
